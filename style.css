@@ -128,7 +128,7 @@ header{
     display: none;
 }
 .Home-container{
-    background-image: url("/images/grapes.jpg");
+   background-image: url("images/grapes.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 10%;
