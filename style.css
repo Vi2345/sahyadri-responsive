@@ -930,6 +930,8 @@ header{
         position: relative;
         top: 30px;
         width: 23rem;
+        line-height: 1.2;
+        font-size: 33px;
     }
 
     .Home-container .Home .Home-text h1::before{
@@ -939,7 +941,13 @@ header{
         background-color: var(--primary-color);
         display: block;
         position: relative;
-        top:5px;
+        top:10px;
+        margin-bottom: 1rem;
+     }
+
+     .Home-container .Home .Home-text p{
+        position: relative;
+        top: 15px;
      }
     
 
