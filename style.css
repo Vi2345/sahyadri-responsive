@@ -849,7 +849,7 @@ header{
  
 
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:420px){
     .navlinks {
         position: absolute;
         top: 94px;
@@ -911,7 +911,14 @@ header{
     }
 
     .Home-container .Home .Home-text h1{
+        position: relative;
+        top: 15px;
         width: 23rem;
+    }
+
+    .sector{
+        position: relative;
+        top: 70px;
     }
    
 
@@ -931,11 +938,11 @@ header{
     }
 
     .About-container .About-us .About-text p{
-        width: 27rem;
+        width: 22rem;
     }
 
     .About-container .About-img img{
-        width: 27rem;
+        width: 23rem;
     }
 
     .infrastructure-container{
@@ -945,16 +952,16 @@ header{
     }
 
     .infrastructure-container .infrastructure-img img{
-        width: 27rem;
+        width: 23rem;
     }
 
     .infrastructure-container .our-infrastructure h1{
-        width: 30rem;
+        width: 24rem;
         font-size: 25px;
     }
 
     .infrastructure-container .our-infrastructure .text p{
-        width: 27rem;
+        width: 22rem;
     }
 
     .card-container{
@@ -965,15 +972,15 @@ header{
     }
 
     .card-container .card{
-        width: 380px;
+        width: 350px;
        
     }
 
     .card-container .card h1{
-        width: 23rem;
+        width: 22rem;
     }
     .card-container .card p{
-        width: 23rem;
+        width: 22rem;
     }
 
     .menu-container{
@@ -1007,7 +1014,7 @@ header{
     }
     .carousel-container{
         display: flex;
-        gap: 7rem;
+        gap: 5rem;
         justify-content: center;
         align-items: center;
     }
@@ -1019,12 +1026,19 @@ header{
 
     .swiper-slide img{
         display: inline-block;
-        width: 45px;
+        width: 35px;
         height: 70px;
         position: relative;
-        left: 10px;
+      
        
     
+    }
+
+    .swiper-button-prev{
+        width: 10px;
+    }
+    .swiper-button-next{
+        width: 10px;
     }
 
     .border-container{
@@ -1034,11 +1048,24 @@ header{
     }
 
     .border-container .border{
+        width: 350px;
         margin-top: 10%;
+    }
+
+    .border-container .border img{
+        width: 21rem;
     }
 
     footer{
         margin-top: 10%;
+    }
+
+    iframe{
+        width:340px
+    }
+
+    .border-container .border p{
+        width: 22rem;
     }
 
     .sub-container{
@@ -1049,12 +1076,12 @@ header{
     }
 
     .sub-container .sub p{
-        width: 25rem;
+        width: 22rem;
     }
 
     .sub-container .sub-2{
         position: relative;
-        right: 120px;
+        right: 100px;
     }
 
     .column .credit{
